@@ -15,6 +15,7 @@ const DBCREDS = process.env.DBCREDS || "amod";
 
 app.get('/',(req,res)=>{
     res.status(200).send({
+        DBCREDS,
         DBCREDS
     });
 
